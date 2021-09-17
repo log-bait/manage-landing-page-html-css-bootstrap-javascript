@@ -1,0 +1,483 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Be Vietnam', sans-serif;
+      font-weight: 500;
+    }
+    body{
+      background-image: url(/images/bg-simplify-section-desktop.svg);
+      background-color: hsl(0, 0%, 98%);
+      background-repeat: no-repeat;
+
+    }
+    .navbar-nav>li:hover{
+    cursor: pointer;
+    color: hsl(227, 12%, 61%);
+    }
+    .submenu{
+        width: 100%; 
+        height: 100%; 
+        background-color: rgba(1, 1, 1, 0.6); 
+        position: absolute; 
+        top: 0; 
+        bottom: 0;
+    }
+    .hummenu{
+        width:300px;
+         height: 270px; 
+        color: hsl(228, 39%, 23%); 
+        position: relative; 
+        text-align: center; 
+        padding: 30px 0; 
+        background-color: white; 
+        margin: 60px auto 0;
+        animation: fadeOut ease-in-out 3s;
+    }
+    .getstart{
+        width:150px;
+        height: 40px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        box-shadow:0px 4px 5px 0px hsl(12, 75%, 68%);
+        outline: none;
+        border: none;
+    }
+    .getstart:hover{
+        color: white;
+        opacity: .85;
+    }
+    .mainCont{
+        width: 100%;
+        height: 80vh;
+        margin-top: 10%;
+        display: flex;
+
+    }
+    .rightsec{
+        width: 50%;
+        height: 100%;
+        text-align: left;
+        color: hsl(227, 12%, 61%);
+        padding-right: 20%;
+
+    }
+    .rightsec>h1{
+        font-weight: 700;
+        color:hsl(228, 39%, 23%)
+    }
+    .leftsec{
+        width: 50%;
+        height: 100%;
+        text-align: center;
+
+    }
+    .midcont{
+        width: 100%;
+        height: 80vh;
+        margin-top: 10%;
+        display: flex;
+        color: hsl(227, 12%, 61%);
+        
+
+    }
+    .leftsec2{
+        width: 50%;
+        height: 100%;
+        padding-right: 10%;
+        text-align: left;
+
+    }
+    .leftsec2>h1{
+        color:hsl(228, 39%, 23%);
+        font-weight: 700;
+    }
+    .rightsec2{
+        width: 50%;
+        height: 100%;
+    }
+    .one, .two, .three{
+        width: 100%;
+        height: 26vh;
+    }
+
+    .content>p{
+        margin-left: 14%;
+    }
+    .span{
+        margin-right:15px;
+        display: inline-block;
+         width: 10%; 
+        text-align: center; 
+        height: 20%; 
+        border-radius: 20px; 
+        background-color: hsl(12, 88%, 59%); 
+        padding: 2px; 
+        color: white;
+    }
+    .h5,h5{
+        color:hsl(228, 39%, 23%)
+    }
+    .lowersec>h4{
+        text-align: center;
+        color:hsl(228, 39%, 23%)
+    }
+    .cardstack{
+        display: flex;
+        margin-top: 10%;
+        color: hsl(227, 12%, 61%);
+    }
+    .cardstack>div{
+        width: 33.3%;
+        height: 230px;
+        background-color: hsl(13, 100%, 96%);
+        margin-left: 10px;
+text-align: center;
+    }
+    .cardstack>div:first-of-type{
+        margin-left: 0;
+    }
+    .cardstack>div>img{
+        width: 18%;
+        position: relative;
+        bottom: 30px;
+        margin-bottom: 0;
+    }
+    .dir-right{
+        width: 1%;
+        background-color: black;
+        padding-top: 8%;
+    }
+   
+    .dir-left{
+        width: 1%;
+        background-color: black;
+        padding-top: 8%;
+    }
+    .dir-left:hover {
+        cursor: pointer;
+        padding-left: 10px;
+        width: 2%;
+    }
+    .dir-right:hover{
+        cursor: pointer;
+        padding-right: 10px;
+        width: 2%;
+    }
+    .footersec{
+        background-color: hsl(12, 88%, 59%);
+        background-image: url(/images/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        height: 230px;
+        margin-top: 15%;
+
+    }
+    .footersec>div{
+        width: 50%;
+        height: 100%;
+        padding: 6%;
+    }
+    .get{
+        background-color: white;
+        color: hsl(12, 88%, 59%);
+        float: right;
+    }
+    .get:hover{
+        color: hsl(12, 88%, 59%);
+        opacity: 0.85;
+    }
+    footer{
+        background-color:hsl(227, 69%, 5%) ;
+        width: 100%;
+        height: 250px;
+        padding: 5%;
+        display: flex;
+        justify-content: space-between;
+        color: hsl(227, 12%, 61%);
+
+    }
+    .logo{
+        display: flex; 
+        flex-direction: column;
+    }
+    .social-icon>ul>li{
+        margin-left: 15px;
+    }
+    .social-icon>ul>li:first-of-type{
+        margin-left: 0px;
+    }
+    .social-icon>ul>li>a>img:hover{
+        width: 120%;
+    }
+    .footermenu{
+        display: flex;
+    }
+    .footermenu>ul:last-of-type{
+        margin-left: 100px;
+    }
+    .footermenu>ul>li:hover{
+        color:hsl(12, 88%, 59%);
+    }
+    input[type="email"]{
+        border: none;
+        border-radius: 25px;
+        padding-left: 15px;
+        height: 35px;
+        outline: none;
+    }
+    .go{
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        height: 35px;
+        width: 50px;
+        border: none;
+    }
+    input[type='radio']{
+background: green;
+    }
+    @keyframes fadeOut{
+        0% {
+            transform:translateY(-100%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+    
+    }
+    @keyframes fadeIn{
+        0% {
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @media screen and (max-width: 1024px) {
+        .mainCont{
+            width: 100%;
+            height: 80vh;
+            margin-top: 10%;
+            display: flex;
+        }
+        .rightsec{
+            width: 40%;
+            height: 100%;
+            text-align: left;
+            color: hsl(227, 12%, 61%);
+            padding-right: 10%;
+        }
+        .rightsec>h1{
+            font-weight: 700;
+            color:hsl(228, 39%, 23%)
+        }
+        .leftsec{
+            width: 60%;
+            height: 100%;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .mainCont{
+            width: 100%;
+            height: 100%;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .rightsec{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            color: hsl(227, 12%, 61%);
+            padding: 40px;
+        }
+        
+        .rightsec>h1{
+            font-weight: 700;
+            color:hsl(228, 39%, 23%)
+        }
+        .leftsec{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        .midcont{
+            width: 100%;
+            height: 100%;
+            margin-top: 0%;
+            display: flex;
+            flex-direction: column;
+            color: hsl(227, 12%, 61%);
+            padding: 5%;
+        }
+        .leftsec2{
+            width: 100%;
+            height: 100%;
+            padding-right: 10%;
+            text-align: left;
+    
+        }
+        .leftsec2>h1{
+            color:hsl(228, 39%, 23%);
+            font-weight: 700;
+        }
+        .rightsec2{
+            width: 100%;
+            height: 100%;
+        }
+        .content>p{
+            margin-left: 0%;
+        }
+        .span{
+            margin-right:0;
+            margin-bottom: 5px;
+            display: inline-block;
+             width: 10%; 
+            text-align: center; 
+            height: 20%; 
+            border-radius: 20px; 
+            padding: 0px; 
+            color: white;
+        }
+        .h5{
+            color:hsl(228, 39%, 23%);
+            margin-bottom: 5px;
+
+        }
+        .one, .two, .three{
+            width: 100%;
+            height: 100%;
+            margin-bottom: 15px;
+        }
+        .cardstack>div{
+            width: 100%;
+            height: 100%;
+            padding: 0 5%;
+            margin: 20px;
+        }
+        .cardstack>div:first-of-type{
+            margin-left:20px ;
+        }
+        
+    .cardstack>div>img{
+        width: 15%;
+        position: relative;
+        bottom: 40px;
+        margin-bottom: 0;
+    }
+    .footermenu>ul:last-of-type{
+        margin-left: 50px;
+    }
+    
+    }
+
+    @media screen and (max-width:425px) {
+        .mainCont{
+            width: 100%;
+            height: 100%;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .rightsec{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            color: hsl(227, 12%, 61%);
+            padding: 40px;
+        }
+        
+        .rightsec>h1{
+            font-weight: 500;
+            color:hsl(228, 39%, 23%)
+        }
+        .leftsec{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        .leftsec>img{
+            width: 100%;
+        }
+        .footersec{
+            background-color: hsl(12, 88%, 59%);
+            background-image: url(/images/bg-simplify-section-desktop.svg);
+            height: 100%;
+            margin-top: 15%;
+            padding: 6%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .footersec>div{
+            width: 100%;
+            height: 100%;
+            padding: 0%;
+        }
+        .cardstack{
+            display: flex;
+            margin-top: 10%;
+            color: hsl(227, 12%, 61%);
+        }
+        .cardstack>div{
+            width: 100%;
+            height: 100%;
+            padding: 0 5%;
+            margin: 20px;
+        }
+        .cardstack>div:first-of-type{
+            margin-left:20px ;
+        }
+        .cardstack>div>img{
+            width: 20%;
+            position: relative;
+            bottom: 40px;
+            margin-bottom: 0;
+        }
+        .get{
+            background-color: white;
+            color: hsl(12, 88%, 59%);
+            float: none;
+            margin-top: 30px;
+        }
+        .get:hover{
+            color: hsl(12, 88%, 59%);
+            opacity: 0.85;
+        }
+        footer{
+            background-color:hsl(227, 69%, 5%) ;
+            width: 100%;
+            height: 100%;
+            padding: 13%;
+            display: flex;
+            flex-direction: column-reverse;
+            color: hsl(227, 12%, 61%);
+    
+        }
+        .footermenu{
+            margin:20px auto 0;
+            
+        }
+        .logo{
+            display: flex; 
+            flex-direction: column-reverse;
+            margin: 10px auto 0;
+            text-align: center;
+        }
+        .email-input{
+            margin: auto;
+        }
+        .social-icon{
+            margin: 0 auto 20px;
+        }
+        .social-icon>ul>li{
+            margin-left: 35px;
+        }
+        .social-icon>ul>li:first-of-type{
+            margin-left: 0px;
+        }
+    }
